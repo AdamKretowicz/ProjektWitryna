@@ -1,0 +1,181 @@
+/* Dodane wcześniej style */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 80px; /* Space for the fixed header */
+}
+
+#champions-container{
+    margin-top: 100px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#favorites-container {
+    margin-top: 100px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.champion-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 10px;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.champion-card img {
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    height: auto;
+}
+
+.champion-card h2 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.champion-card p {
+    color: #666;
+    padding: 0 10px 10px;
+}
+
+.champion-card button {
+    margin: 10px;
+    padding: 10px;
+    background-color: #1e1e1e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.champion-card button:hover {
+    background-color: #444;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#champion-details {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#champion-details img {
+    margin-top: 70px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.skins-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skin-card {
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 10px;
+}
+
+.skin-card img {
+    width: 100%;
+    height: auto;
+}
+
+.skin-card p {
+    margin: 10px 0;
+    padding: 0 10px 10px;
+    color: #666;
+}
+
+body {
+    background: url('https://getwallpapers.com/wallpaper/full/4/a/4/249255.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+/* Akordeon */
+.accordion {
+    background-color: #1e1e1e;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.2em;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.accordion:hover,
+.accordion:focus {
+    background-color: #444;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    border-radius: 0 0 5px 5px;
+}
